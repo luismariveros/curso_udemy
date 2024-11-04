@@ -1,0 +1,64 @@
+{
+	"folders": [
+		{
+			"path": "../../modulos"
+		},
+		{
+			"path": "../../odoo15"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+        "workbench.colorTheme": "Default Dark Modern",
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.tree.indent": 18,
+        "workbench.tree.expandMode": "singleClick",
+        "xml.completion.autoCloseTags": true,
+        "xml.completion.autoCloseRemovesContent": true,
+        "terminal.integrated.mouseWheelZoom": true,
+        "workbench.colorCustomizations": {
+            "tab.activeBorder": "#48ff00",
+            "tab.unfocusedActiveBorder": "#000000",
+            "editor.background": "#1f1f1f",
+            "tab.inactiveBackground": "#0e0e0e",
+            "editorGroupHeader.tabsBackground": "#1b1b1b",
+            "terminal.background": "#1a1919",
+            "panel.background": "#2b2b2b",
+            "statusBarItem.remoteBackground": "#5dac5d",
+            "icon.foreground": "#72cf5f",
+            "activityBar.activeBorder": "#72f192",
+            "activityBar.foreground": "#89f3a4",
+            "activityBar.inactiveForeground": "#575757"
+        },
+        "python.languageServer": "None",
+        "explorer.compactFolders": false,
+        //reset la fuente cursiva a normal (parametros, atributos)
+        "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "entity.name.variable.parameter",
+                        "entity.other.attribute-name",
+                        "variable.parameter",
+                        "variable.parameter.function.language.special",
+                    ],
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                }
+            ],
+            "[Sublime Text 4 Theme]": {
+                "textMateRules": [
+                    {
+                        "scope": "comment",
+                        "settings": {
+                            "foreground": "#74705D",
+                        }
+                    },
+                ]
+            },
+        },
+    },
+}

@@ -1,0 +1,68 @@
+{
+    
+    "files.autoSave": "afterDelay",
+    "black-formatter.args": [
+        "--line-length",
+        "79"
+    ],
+    "editor.autoClosingQuotes": "always",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "editor.linkedEditing": true,
+    "editor.mouseWheelZoom": true,    
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/__pycache__": true,
+        "**/Thumbs.db": true
+    },
+    "flake8.args": [
+        "--max-line-length=79",
+        "--ignore=F401,F841",
+    ],
+    "html.autoClosingTags": true,
+    "html.autoCreateQuotes": true,
+    "html.completion.attributeDefaultValue": "doublequotes",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder:odoo15}",
+        "${workspaceFolder:odoo15}/addons",
+        "${workspaceFolder:odoo15}/odoo",
+        "${workspaceFolder:odoo15}/odoo/addons",
+        "${workspaceFolder:modulos}/neurona",
+        "${workspaceFolder:modulos}/oca",
+        "${workspaceFolder:modulos}/extras",
+        "${workspaceFolder:modulos}/locales",
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder:odoo15}",
+        "${workspaceFolder:odoo15}/addons",
+        "${workspaceFolder:odoo15}/odoo",
+        "${workspaceFolder:odoo15}/odoo/addons",
+        "${workspaceFolder:modulos}/neurona",
+        "${workspaceFolder:modulos}/oca",
+        "${workspaceFolder:modulos}/extras",
+        "${workspaceFolder:modulos}/locales",
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            79
+        ],
+    },
+    "python.envFile": "${workspaceFolder}/../config/venv15/",
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/../config/venv15/bin/python3",
+    "editor.tabCompletion": "on",
+    // sublime 4 theme
+    //"breadcrumbs.enabled": false,
+    "editor.letterSpacing": 0.55,
+    "editor.lineHeight": 19,
+}
