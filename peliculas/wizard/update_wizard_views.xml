@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- View update_wizard form -->
+    <record id="view_update_wizard_form" model="ir.ui.view">
+        <field name="name">view.update_wizard.form</field>
+        <field name="model">update_wizard</field>
+        <field name="arch" type="xml">
+            <form string="Update_wizard">
+                <div class="oe_title">
+                    <label for="name"/>
+                    <h1>
+                        <field name="name" placeholder="Name..."/>
+                    </h1>
+                </div>
+                <footer>
+                    <button name="update_vista_general" type="object" string="Actualizar" class="oe_highlight"/>
+                    <button special="cancel" string="Cancelar"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action update_wizard -->
+    <record id="action_open_update_wizard" model="ir.actions.act_window">
+        <field name="name">Actualizar Campo Descripcion General</field>
+        <!-- <field name="type">ir.actions.act_window</field> -->
+        <field name="res_model">update_wizard</field>
+        <field name="view_mode">form</field>
+        <!-- <field name="binding_model_id" ref="addon.model_model_name"/> -->
+        <field name="target">new</field>
+    </record>
+
+</odoo>

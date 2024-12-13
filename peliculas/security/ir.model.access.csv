@@ -1,2 +1,11 @@
 id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
-access_genero_manager,genero_manager,model_genero,,1,1,1,1
+access_presupuesto_user,presupuesto_user,model_presupuesto,group_pelicula_user,1,0,0,0
+access_presupuesto_detalle_user,presupuesto_detalle_user,model_presupuesto_detalle,group_pelicula_user,1,0,0,0
+access_recurso_cinematografico_user,recurso_cinematografico_user,model_recurso_cinematografico,group_pelicula_user,1,0,0,0
+access_genero_user,genero_user,model_genero,group_pelicula_user,1,0,0,0
+
+access_presupuesto_manager,presupuesto_manager,model_presupuesto,group_pelicula_manager,1,1,1,1
+access_presupuesto_detalle_manager,presupuesto_detalle_manager,model_presupuesto_detalle,group_pelicula_manager,1,1,1,1
+access_recurso_cinematografico_manager,recurso_cinematografico_manager,model_recurso_cinematografico,group_pelicula_manager,1,1,1,1
+access_genero_manager,genero_manager,model_genero,group_pelicula_manager,1,1,1,1
+access_update_wizard_manager,update_wizard_manager,model_update_wizard,group_pelicula_manager,1,1,1,1
